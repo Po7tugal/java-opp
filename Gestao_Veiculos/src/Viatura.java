@@ -1,12 +1,12 @@
-public class Viaturas {
+public class Viatura {
     private String tipoViatura;
     private int numRodas;
     private int maxVel;
 
-    public Viaturas() {
+    public Viatura() {
     }
 
-    public Viaturas(String tipoViatura, int numRodas, int maxVel) {
+    public Viatura(String tipoViatura, int numRodas, int maxVel) {
         this.tipoViatura = tipoViatura;
         this.numRodas = numRodas;
         this.maxVel = maxVel;
@@ -33,7 +33,7 @@ public class Viaturas {
 
     public void mostrarInfo() {
         System.out.println("\n\n****************** GERIR VEÍCULO ******************\n");
-        System.out.print("-> Tipo de Viatura: ");
+        System.out.print("-> Tipo: ");
         System.out.println(tipoViatura);
         System.out.print("-> Número de rodas da Viatura: ");
         System.out.println(numRodas);
